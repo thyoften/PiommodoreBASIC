@@ -134,6 +134,7 @@ namespace PiommodoreBASIC
                         case "SIN": data.Push(Math.Sin(data.Pop())); break;
                         case "COS": data.Push(Math.Cos(data.Pop())); break;
                         case "ATN": data.Push(Math.Atan(data.Pop())); break;
+                        case "INT": data.Push(Convert.ToDouble((int)data.Pop())); break;
                         case "PEEK": data.Push(Scratchpad.Read(Convert.ToInt32(data.Pop()))); break;
                     }
                 }

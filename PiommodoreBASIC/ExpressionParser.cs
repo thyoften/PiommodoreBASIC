@@ -19,7 +19,7 @@ namespace PiommodoreBASIC
         string[] exprTokens;
 
         public readonly static string[] Operators = { "+", "-", "*", "/", "^", "%",  ">", "<", "=", "#", "&", "|", "~" };
-        public readonly static string[] Functions = { "SIN", "COS", "ATN", "PEEK"};
+        public readonly static string[] Functions = { "SIN", "COS", "ATN", "PEEK", "INT"};
 
 
         private bool IsNumber(string token)
