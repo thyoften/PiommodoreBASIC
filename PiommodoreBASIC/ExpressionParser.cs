@@ -60,7 +60,6 @@ namespace PiommodoreBASIC
                     else if (i > 0 && exprTokens[i - 1] == "(")
                     {
                         expression.Add((ExpressionTokenType.UNARY_OPERATOR, exprTokens[i]));
-                        expression.Add((ExpressionTokenType.UNARY_OPERATOR, exprTokens[i]));
                     }
                     else if (i > 0 && Operators.Contains(exprTokens[i - 1]))
                     {
